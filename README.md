@@ -95,6 +95,7 @@ java ParkingLotSystem
 ### 3. Use Menu
 
 * Admin Panel → Register, Assign Slot, Generate Ticket
+  
 * Driver Panel → View Slot, Ticket, Bill, Exit
 
 ---
