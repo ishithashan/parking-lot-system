@@ -111,12 +111,12 @@ java ParkingLotSystem
 
 ## Features
 
-✔ Multi-floor parking system
-✔ Slot allocation based on vehicle type
-✔ Ticket generation with timestamp
-✔ Billing system
-✔ Slot occupancy tracking
-✔ Admin & Driver interface
+- Multi-floor parking system
+- Slot allocation based on vehicle type
+- Ticket generation with timestamp
+- Billing system
+- Slot occupancy tracking
+- Admin & Driver interface
 
 ---
 
