@@ -1,0 +1,238 @@
+===== PARKING LOT MANAGEMENT =====
+1. Driver Panel
+2. Admin Panel
+3. Exit
+Choice: 2
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 1
+
+--- REGISTER VEHICLE ---
+Enter Vehicle Number: TN101
+Choose Vehicle Type:
+1. Car
+2. Bike
+3. Truck
+4. Others
+Choice: 1
+Enter Owner Name: Ishitha
+Registration successful!
+Your Vehicle ID: 1
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 2
+
+--- ASSIGN PARKING SLOT ---
+
+=== ALL VEHICLES ===
+ID | Vehicle No | Type | Owner
+--------------------------------
+1 | TN101 | Car | Ishitha
+Enter Vehicle ID to assign slot: 1
+Slot assigned successfully!
+Vehicle: TN101
+Slot: Floor: 1, Row: 2, Slot: 1
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 3
+
+--- GENERATE TICKET ---
+
+=== ALL VEHICLES ===
+ID | Vehicle No | Type | Owner
+--------------------------------
+1 | TN101 | Car | Ishitha
+Enter Vehicle ID to generate ticket: 1
+Ticket generated!
+
+--- TICKET DETAILS ---
+Ticket ID: 1
+Vehicle No: TN101
+Slot ID: 1
+Entry Time: Tue Apr 28 18:52:14 IST 2026
+Status: ACTIVE
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 4
+
+=== ALL PARKING SLOTS ===
+Slot ID | Floor | Row | Type | Status
+----------------------------------------
+  1     |   1   |  2   | Car | OCCUPIED
+  2     |   1   |  3   | Car | AVAILABLE
+  3     |   1   |  4   | Car | AVAILABLE
+  4     |   1   |  5   | Car | AVAILABLE
+  5     |   1   |  1   | Car | AVAILABLE
+  6     |   1   |  2   | Car | AVAILABLE
+  7     |   1   |  3   | Car | AVAILABLE
+  8     |   1   |  4   | Car | AVAILABLE
+  9     |   1   |  5   | Car | AVAILABLE
+  10     |   1   |  1   | Car | AVAILABLE
+  11     |   2   |  2   | Bike | AVAILABLE
+  12     |   2   |  3   | Bike | AVAILABLE
+  13     |   2   |  4   | Bike | AVAILABLE
+  14     |   2   |  5   | Bike | AVAILABLE
+  15     |   2   |  1   | Bike | AVAILABLE
+  16     |   2   |  2   | Bike | AVAILABLE
+  17     |   2   |  3   | Bike | AVAILABLE
+  18     |   2   |  4   | Bike | AVAILABLE
+  19     |   2   |  5   | Bike | AVAILABLE
+  20     |   2   |  1   | Bike | AVAILABLE
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 5
+
+--- CHECK AVAILABILITY ---
+Enter Floor Number: 2
+Enter Row Number: 3
+Slot 12 (Bike): AVAILABLE
+Slot 17 (Bike): AVAILABLE
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 6
+
+=== ALL VEHICLES ===
+ID | Vehicle No | Type | Owner
+--------------------------------
+1 | TN101 | Car | Ishitha
+
+--- ADMIN PANEL ---
+1. Register Vehicle
+2. Assign Parking Slot
+3. Generate Ticket
+4. View All Slots
+5. Check Slot Availability
+6. View All Vehicles
+7. Logout
+Choice: 7
+
+===== PARKING LOT MANAGEMENT =====
+1. Driver Panel
+2. Admin Panel
+3. Exit
+Choice: 1
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 1
+
+--- YOUR PARKING SLOT ---
+Floor: 1, Row: 2, Slot: 1
+Status: OCCUPIED
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 2
+
+--- TICKET DETAILS ---
+Ticket ID: 1
+Vehicle No: TN101
+Slot ID: 1
+Entry Time: Tue Apr 28 18:52:14 IST 2026
+Status: ACTIVE
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 3
+No bill generated yet!
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 4
+
+VEHICLE EXITED
+Vehicle: TN101
+Duration: 0 minutes (0 hours)
+Total Charge: Rs.50
+Exit Time: Tue Apr 28 18:53:13 IST 2026
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 3
+
+--- YOUR BILL ---
+Total Charge: Rs.50
+
+--- DRIVER PANEL ---
+Welcome: TN101
+1. View My Parking Slot
+2. View My Ticket
+3. View My Bill
+4. Exit Vehicle (Generate Bill)
+5. Logout
+Choice: 5
+Logged out!
+
+===== PARKING LOT MANAGEMENT =====
+1. Driver Panel
+2. Admin Panel
+3. Exit
+Choice: 3
+Thank you!
